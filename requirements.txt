@@ -7,3 +7,4 @@ matplotlib==3.5.1
 mtcnn
 scipy==1.7.0
 keras_vggface
+tensorflow-cpu 2.1.3
