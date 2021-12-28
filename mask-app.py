@@ -9,8 +9,8 @@ from matplotlib.patches import Circle
 from scipy.spatial.distance import cosine
 from keras_vggface.vggface import VGGFace
 from keras_vggface.utils import preprocess_input
-#import tensorflow as tf
-from keras.models import load_model
+import tensorflow as tf
+#from keras.models import load_model
 
 st.write("""
 # Face mask detection!
@@ -56,8 +56,8 @@ def main():
             
             img_reshape = img_resize[np.newaxis,...]
         
-            #model1 = tf.keras.models.load_model('model.h5')
-            model1 = load_model('model.h5')
+            model1 = tf.keras.models.load_model('model.h5')
+            #model1 = load_model('model.h5')
 
             prediction = model1.predict(img_reshape)
                               
