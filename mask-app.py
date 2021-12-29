@@ -3,7 +3,7 @@ import cv2 #convert images into arrays
 import streamlit as st
 from PIL import Image, ImageOps
 import matplotlib.pyplot as plt
-from mtcnn.mtcnn import MTCNN
+from mtcnn import MTCNN
 from matplotlib.patches import Rectangle
 from matplotlib.patches import Circle
 from scipy.spatial.distance import cosine
