@@ -1,6 +1,6 @@
 streamlit
 numpy==1.19.4
-keras
+keras==2.0.0
 pillow==7.2.0
 opencv-python-headless
 matplotlib==3.4.3
