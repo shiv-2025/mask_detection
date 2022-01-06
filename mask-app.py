@@ -7,7 +7,7 @@ from mtcnn.mtcnn import MTCNN
 from matplotlib.patches import Rectangle
 from matplotlib.patches import Circle
 from scipy.spatial.distance import cosine
-from keras_vggface.vggface import VGGFace
+#from keras_vggface.vggface import VGGFace
 from keras_vggface.utils import preprocess_input
 import tensorflow as tf
 #from keras.models import load_model
